@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 670,
+  "bottomRowBeforeCollapse": 670,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "chat",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "zddntxzi77",
+  "leftColumn": 55,
+  "minWidth": 50,
+  "mobileBottomRow": 674,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 7,
+  "mobileTopRow": 670,
+  "needsErrorInfo": false,
+  "onClick": "{{setVisibleChat.showChat();}}",
+  "originalBottomRow": 670,
+  "originalTopRow": 661,
+  "parentColumnSpace": 17.9375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 60,
+  "topRow": 661,
+  "topRowBeforeCollapse": 661,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "u4l5isfpyy",
+  "widgetName": "ShowChatIcon"
+}

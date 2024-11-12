@@ -1,0 +1,41 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 79,
+  "boxShadow": "none",
+  "defaultImage": "https://static.wixstatic.com/media/0b340f_6f50a4c537604a98b9774f92c80970a7~mv2.jpg/v1/crop/x_0,y_0,w_274,h_358/fill/w_376,h_491,al_c,lg_1,q_80,enc_auto/713774027-170667a%20copy_edited_edited.jpg",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ampt2vrjlh",
+  "leftColumn": 35,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 39,
+  "mobileLeftColumn": 35,
+  "mobileRightColumn": 47,
+  "mobileTopRow": 27,
+  "needsErrorInfo": false,
+  "objectFit": "cover",
+  "originalBottomRow": 79,
+  "originalTopRow": 27,
+  "parentColumnSpace": 19.8125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 56,
+  "topRow": 27,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "kfprp784np",
+  "widgetName": "Image2"
+}
