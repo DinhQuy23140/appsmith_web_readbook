@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67320b03feb9fc183d386718_8e5d9702-78e1-4687-bd2f-fe8600a21b21",
-  "id": "BooksPage_Api1",
+  "gitSyncId": "67320b03feb9fc183d386718_ef558740-cab6-4a8e-999e-75516e02e420",
+  "id": "BooksPage_Api2",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -22,7 +22,12 @@
           "value": true
         }
       ],
-      "queryParameters": [],
+      "queryParameters": [
+        {
+          "key": "seach",
+          "value": "{{inputSearch.text}}"
+        }
+      ],
       "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
@@ -32,9 +37,16 @@
       "name": "getdataApi",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "path"
+      },
+      {
+        "key": "queryParameters[0].value"
+      }
+    ],
     "executeOnLoad": false,
-    "name": "Api1",
+    "name": "Api2",
     "pageId": "BooksPage",
     "userSetOnLoad": false
   }

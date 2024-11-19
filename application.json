@@ -21,11 +21,19 @@
   "icon": "love",
   "pages": [
     {
-      "id": "Page1",
+      "id": "HomePage",
       "isDefault": true
     },
     {
       "id": "BooksPage",
+      "isDefault": false
+    },
+    {
+      "id": "AboutPage",
+      "isDefault": false
+    },
+    {
+      "id": "ContactPage",
       "isDefault": false
     }
   ],

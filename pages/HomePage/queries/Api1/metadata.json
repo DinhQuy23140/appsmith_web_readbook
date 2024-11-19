@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67320b03feb9fc183d386718_8e5d9702-78e1-4687-bd2f-fe8600a21b21",
-  "id": "BooksPage_Api1",
+  "gitSyncId": "67320b03feb9fc183d386718_e41b2143-eec4-41f8-a647-f4d7324e93c7",
+  "id": "HomePage_Api1",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -33,9 +33,9 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "Api1",
-    "pageId": "BooksPage",
+    "pageId": "HomePage",
     "userSetOnLoad": false
   }
 }
